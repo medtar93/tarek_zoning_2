@@ -1,0 +1,93 @@
+@charset "utf-8";
+
+    /* feuille de style CE SOIR de Tarek Benkherouf */
+
+    /* fond du body */
+body{
+    background: #9fc5b6; 
+}
+
+    /* proprité du container */
+#container{
+    width: 1000px;
+    background:whitesmoke;
+    margin: 0 auto;
+}
+
+/* style élements du HEADER*/
+header{
+    height: 400px;
+    background: url(../img/woodPlank.jpg)
+}
+header h1{
+display: inline-block;
+}
+nav{
+    display: inline-block;
+    width: 500px;
+    margin-left: 300px;
+}
+nav ul li{
+    display: inline;
+    margin-left: 3em;
+    list-style: none;
+}
+.cerf{
+    display: block;
+    margin: 0 auto;
+    margin-top: 3px;
+}
+/* styles section */
+.clear{
+    clear:both;
+}
+ article{
+     text-align: center;
+     margin-top: 70px;
+ }
+/* section1 */
+.artsec1{ /* article section 1 */
+width: 350px;
+float: left;
+}
+.asisec1{/* aside section1 */
+    width: 650px;
+    float: right;
+    margin: 0 auto;
+}
+/* section 2 */
+.artsec2{ /* article section 2 */
+    width: 300px;
+    float: right;
+    }
+.asisec2{/* aside section 2 */
+    width: 700px;
+    float: left;
+    margin: 0 auto;
+    }
+/* section 3 */
+.artsec3{ /* article section 1 */
+    width: 350px;
+    float: left;
+    }
+    .asisec3{/* aside section1 */
+        width: 650px;
+        float: right;
+        margin: 0 auto;
+    }
+
+/* style footer */
+footer{
+    height: 300px;
+}
+footer p{
+    float: right;
+    margin-right: 30px;
+    font-size: 2em;
+    color: crimson
+}
+span{
+    margin-left: 20px;
+    font-size: 5em;
+    color: crimson;
+}
